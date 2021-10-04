@@ -1,0 +1,20 @@
+
+
+
+#create main function
+#in the main function there will a loop that takes in user input for the user to select what they would like to do with the holidays that are currently in the system
+#after selecting an option the the menu will then create another menu depending on the option that selected asking for the
+#other information that they will need in order to fulfill the request
+
+#the options are as follows
+#1 Add Holiday
+This will add a single holiday to the list of holidays that exist if the given information like the date that is input is correct
+#2 Remove Holiday
+#this will remove all instances of a holiday that have the given name
+#3 Save Holiday
+#this will write out the current holiday list to a json file
+#4 View Holidays for a week
+#this option will allow people to view the holidays for a given week and they will also be able to view the weather for a given week if the week selected is within
+$ 15 days of the current date
+#5 Exit
+#this will exit the program
