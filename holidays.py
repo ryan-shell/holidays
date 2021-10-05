@@ -24,7 +24,7 @@ def readFile(holidayList):
 
     for i in jsonObj["holidays"]:
         holidayList.append(Holiday(i["name"], i["date"]))
-        print(i)
+        #print(i)
     fin.close()
 
     return holidayList
