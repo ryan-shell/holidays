@@ -10,6 +10,11 @@ class Holiday:
     name: str
     date : datetime
 
+    def __str__(self):
+        return (self.name + " - " + str(self.date))
+    def __eq__(self, other):
+        return (self.name == other.name)
+
     def getDate(self):
         return self.date
     
